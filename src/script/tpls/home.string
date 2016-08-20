@@ -1,4 +1,4 @@
-
+<div class="m-home">
   <header>精选</header>
   <nav>
     <ul>
@@ -9,3 +9,4 @@
     </ul>
   </nav>
   <section></section>
+</div>

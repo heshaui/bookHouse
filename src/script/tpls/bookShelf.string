@@ -2,30 +2,32 @@
 	<header>
 		<ul>
 			<li><i class="yo-ico">&#xe8fd;</i></li>
-			<li class=""></li>
-			<li class=""></li>
-			<li></li>
-			<li></li>
+			<li>送书分享</li>
+			<li>扫一扫</li>
+			<li>活动</li>
+			<li>会员</li>
 		</ul>
 	</header>
 	<nav>
 		<ul>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
-			<li></li>
+			<li>笔记</li>
+			<li>网络上传</li>
+			<li>网盘（0）</li>
+			<li>本地（0）</li>
+			<li>流量</li>
+			<li>分类（6）</li>
 		</ul>
 	</nav>
-	<section></section>
-	<footer>
-  	<ul class="index-nav">
-		<li><i class='yo-ico'>&#xe64b;</i><b>书架</b></li>
-		<li><i class='yo-ico'>&#xe61a;</i><b>精选</b></li>
-		<li><i class='yo-ico'>&#xe602;</i><b>分类</b></li>
-		<li><i class='yo-ico'>&#xe655;</i><b>榜单</b></li>
-		<li><i class='yo-ico'>&#xe637;</i><b>我的</b></li>
-	</ul>	
-  </footer>
+	<section>
+		<ul>
+			<li><img src="/bookHouse/images/1.jpg" alt="" /></li>
+			<li><img src="/bookHouse/images/2.jpg" alt="" /></li>
+			<li><img src="/bookHouse/images/3.jpg" alt="" /></li>
+		</ul>
+		<ul>
+			<li><img src="/bookHouse/images/4.jpg" alt="" /></li>
+			<li><img src="/bookHouse/images/5.jpg" alt="" /></li>
+			<li><img src="/bookHouse/images/6.jpg" alt="" /></li>
+		</ul>
+	</section>
 </div>
