@@ -1,11 +1,149 @@
 
-  <header>精选</header>
-  <nav>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </nav>
-  <section></section>
+<div id="m-index">
+	<div id="m-home"> 
+ 		<header>
+ 			<i><img src="/bookHouse/images/disk_refresh.png" alt="" /></i>
+ 			<h1>精选</h1>
+ 			<i><img src="/bookHouse/images/search_img.png" alt="" /></i>			
+ 		</header> 
+		<section spa-widget="scroll">
+		    <div  class="content">
+		      	<nav id="home-nav">
+			        <ul>
+			            <li class="active">热门</li>
+			            <li>男频</li>
+			            <li>女频</li>
+			            <li>出版</li> 
+			        </ul>
+		      	</nav>   
+		      	<div class="swiper-container" id="home-swiper">
+  				<div class="swiper-wrapper">
+	    			<div class="swiper-slide">
+			   		<h3>原创风向标</h3> 
+			        <ul class="orgin">     		              
+			       		<li>
+			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
+			                <b>混沌天体</b>
+			                <span>骑着蜗牛去旅行</span>
+			            </li>
+			       		<li>
+			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
+			                <b>混沌天体</b>
+			                <span>骑着蜗牛去旅行</span>
+			            </li>
+			       		<li>
+			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
+			                <b>混沌天体</b>
+			                <span>骑着蜗牛去旅行</span>
+			            </li>
+			        </ul>
+			        <ul class="present">
+			          <h3>好书速递</h3> 
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			        </ul>
+			        <ul class="present">
+			          <h3>原创男生</h3> 
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			        </ul>        
+			        <ul class="present">
+			          <h3>原创女生</h3> 
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			          <li>                           
+			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
+			            <ul>  
+			              <li>啥技术的</li>
+			              <li>花式</li>
+			              <li>收点卡了盛大开多久啊撒开了</li>
+			              <li>免费试读</li>
+			            </ul>
+			          </li>
+			        </ul>
+			        <h3 class="wantRead">最想读的书</h3>
+			        <ul class="orgin">                        
+			            <li>
+			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
+			                <b>混沌天体</b>
+			                <span>骑着蜗牛去旅行</span>
+			            </li>
+			            <li>
+			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
+			                <b>混沌天体</b>
+			                <span>骑着蜗牛去旅行</span>
+			            </li>
+			            <li>
+			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
+			                <b>混沌天体</b>
+			                <span>骑着蜗牛去旅行</span>
+			            </li>
+			        </ul> 
+			        <div class="sign"><img src="/bookHouse/images/sign.jpg" alt=""></div>
+			        <div class="copy">
+			            <div>
+			                <p>三味书屋书迷QQ群：109745941</p>
+			                <p>请及时升级三味书屋最新版本，惊喜不断</p>
+			                <p>Readingjoy&copy;2015版权所有</p>
+			            </div>
+			        </div>       
+			    	</div>  
+			    	<div class="swiper-slide">男频</div>
+			    	<div class="swiper-slide">女频</div>
+			    	<div class="swiper-slide">出版</div>			    	
+		  		</div>
+	  		</div>
+			</div>	  	
+		</section>
+
+  	</div>
+ </div>
+  
