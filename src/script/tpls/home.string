@@ -1,7 +1,5 @@
-<<<<<<< HEAD
 
-<div id="m-index">
-	<div id="m-home"> 
+	<div class="m-home"> 
  		<header>
  			<i><img src="/bookHouse/images/disk_refresh.png" alt="" /></i>
  			<h1>精选</h1>
@@ -146,19 +144,4 @@
 		</section>
 
   	</div>
- </div>
   
-=======
-<div class="m-home">
-  <header>精选</header>
-  <nav>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-  </nav>
-  <section></section>
-</div>
->>>>>>> master
