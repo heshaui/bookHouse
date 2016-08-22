@@ -2,11 +2,11 @@
   <div id="m-container"></div>	 	
   <footer>
 	  	<ul id="index-nav">
-			<li class="active" action-type='switch' data-name="bookShelf">
+			<li action-type='switch' data-name="bookShelf">
 				<i class='yo-ico'>&#xe64b;</i>
 				<b>书架</b>
 			</li>
-			<li data-name='home' action-type='switch'>
+			<li class="active" data-name='home' action-type='switch'>
 				<i class='yo-ico'>&#xe61a;</i>
 				<b>精选</b>
 			</li>

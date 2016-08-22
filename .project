@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>BookHouse</name>
+	<name>bookHouse</name>
 	<comment></comment>
 	<projects>
 	</projects>
@@ -22,7 +22,7 @@
 	</natures>
 	<filteredResources>
 		<filter>
-			<id>1471450775688</id>
+			<id>1471827279160</id>
 			<name></name>
 			<type>26</type>
 			<matcher>

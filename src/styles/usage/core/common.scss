@@ -1,6 +1,19 @@
 $base-color:rgba(78,159,80,0.8);
-
+$font-color:#383838;
+$border-color:#dedede;
 @font-face {
   font-family: yofont;
   src: url("/bookHouse/images/iconfont/iconfont.woff") format("woff"), url("/bookHouse/images/iconfont/iconfont.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/bookHouse/images/iconfont/iconfont-my.woff") format("woff"), url("/bookHouse/images/iconfont/iconfont-my.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/bookHouse/images/iconfont/iconfont-task.woff") format("woff"), url("/bookHouse/images/iconfont/iconfont-task.ttf") format("truetype");
+}
+@font-face {
+  font-family: yofont;
+  src: url("/bookHouse/images/iconfont/iconfont-roll.woff") format("woff"), url("/bookHouse/images/iconfont/iconfont-roll.ttf") format("truetype");
 }
