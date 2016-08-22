@@ -1,0 +1,92 @@
+#m-container{
+    .m-sort{
+          width: 100%;
+          height: 100%;
+          @include flexbox();
+          @include flex-direction(column);
+          header{
+              height:.46rem;
+              @include flexbox();
+              i{  
+                  width: 100%;
+                  color: #000;
+                  text-align: center;
+                  line-height: .46rem;
+                  font-size: .22rem;
+                  font-weight: bold;
+              }
+          }
+          nav{
+              height: 1.11rem;
+              text-align: center;
+              border-bottom: .015rem solid blue;
+              input{
+                  width:3.32rem;
+                  height:.42rem;
+                  margin-top: .1rem;
+              }
+              ul{
+                 padding: .2rem .09rem 0;
+                 @include flexbox();
+                    li{
+                        @include flex();
+                        width:1.12rem;
+                        height:.38rem;
+                        background: #54acd3;
+                        color: #fff;
+                        margin-right: .02rem;
+                        line-height: .35rem;
+                        &:first-child{
+                            background: #548ad3;
+                        }
+                        &:last-child{
+                            background: #5db382;
+                        }
+                    }
+              }
+          }
+          section{
+              @include flex();
+              width:100%!important;
+              overflow: hidden;
+              article{
+                 width: 100%;
+                 background: #fff;
+                
+                 h3{
+                     height: .5rem;
+                     font-size: .16rem;
+                     font-weight: normal;
+                     padding-left: .25rem;
+                     border-top: .1rem solid #f0f0f0;
+                     line-height: .4rem;
+                     border-bottom: .01rem solid #f0f0f0;
+                     
+                 }
+                 
+                 ul{
+                     width:100%;
+                     @include flexbox();
+                     @include flex-wrap(wrap);
+                     @include align-content(flex-start);
+                     height: 3.14rem;
+                     li{
+                         width:50%;
+                         height: .62rem;
+                         padding-top: .1rem;
+                         text-align: center;
+                         border-bottom: .01rem solid #f0f0f0;
+                         &:first-child img{
+                             width: 1.6rem;
+                             height: 1.5rem;
+                         }
+                         span{
+                             display: block;
+                         }
+                     }
+                 }
+              }
+          }
+    
+    }
+}
