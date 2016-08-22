@@ -1,0 +1,253 @@
+#m-container{
+    .m-my{
+        @include flexbox();
+        @include flex-direction(column);
+        header{
+            width:100%;
+            background:url(/bookHouse/images/bac1.jpg);
+            background-size: cover;
+            div{
+                width:100%;
+                height:.87rem;
+                background:rgba(135,187,148,.8);
+                @include flexbox();
+                @include align-items(center);
+                padding-left:.2rem;
+                position:relative;
+                i{
+                    display: block;
+                    font-size:.53rem;
+                    width:.6rem;
+                    height:.6rem;
+                    line-height:.5rem;
+                    color:#fff; 
+                    border:2px solid #92c288;
+                    @include border-radius(50%);
+                    background:#a4a4a4;
+                    text-align: center;
+                }
+                p{
+                    padding-left: .14rem;
+                   span{
+                       display: block;
+                       color:#fff;
+                       font-size:.14rem;
+                       line-height:.26rem;
+                   }
+                   button{
+                       border:0;
+                       width:.9rem;
+                       height:.31rem;
+                       background:#39a921;
+                       @include border-radius(.05rem);
+                       text-align: center;
+                       line-height:.31rem;
+                       color:#fff;
+                   }
+                }
+                a{
+                    color:#fff;
+                    font-size:.12rem;
+                    position: absolute;
+                    bottom: .22rem;
+                    right:.1rem;
+                }
+            }
+            .hint{
+                width:100%;
+                height:.24rem;
+                background:#a6cab0;
+                color:#fff;
+                font-size:.13rem;
+                line-height:.24rem;
+                text-align: center;
+            }
+        }
+        nav{
+            width:100%;
+            box-shadow:0 0 2px #cdcdcd;
+            background:#fff;
+            ul{
+                @include flexbox();
+                height:.47rem;
+                padding: .09rem 0;
+                li{
+                  @include flex();
+                  @include flexbox();
+                  @include flex-direction(column);
+                  text-align: center;
+                  &:nth-child(1){
+                      @include border(0 1px 0 0,#f1f1f1);
+                  }
+                  &:nth-child(2){
+                      @include border(0 1px 0 0,#e7e7e7);
+                      @include border(0 0 0 1px,#f1f1f1);
+                  }
+                  &:nth-child(3){
+                      @include border(0 0 0 1px,#e7e7e7);
+                  }
+                  i{
+                      color:#6fa952;
+                      font-size:.18rem;
+                      @include transform(scale(.5));
+                      line-height:.14rem;
+                  }
+                  b{
+                      font-size:.13rem;
+                      color:#333;
+                      font-weight:normal;
+                  }  
+                }
+            }
+        }
+        section{
+            @include flex();
+            width:100%!important;
+            overflow:hidden;
+            article{
+              width:100%;
+              background:#fff;
+              ul{
+                 width:100%;
+                 padding-left:.5rem;
+                 border-top:8px solid #f8f8f8;
+                 box-shadow:0 0 2px #cdcdcd;
+                 li{
+                    height:.47rem;
+                    @include border(0 0 1px 0,#e8e8e8);
+                    @include flexbox();
+                    @include align-items(center);
+                    position:relative;
+                    padding-right:.24rem; 
+                    &:last-child{
+                       @include border(0 0 0 0,#e8e8e8); 
+                    }
+                    i{
+                        position: absolute;
+                        width:.25rem;
+                        height:.25rem;
+                        font-size:.16rem;
+                        @include border-radius(50%);
+                        color:#fff;
+                        text-align: center;
+                        line-height:.25rem;
+                        left:-.37rem;
+                    }
+                    b{
+                        @include flex();
+                        font-weight:normal;
+                        color:#333;
+                        font-size:.15rem;
+                    }
+                    span{
+                        @include flex();
+                        text-align: right;
+                        font-size:.13rem;
+                    }
+                    a{
+                       position: absolute;
+                       right:.10rem;
+                       font-size:.12rem;
+                    }
+                 }
+                 &:nth-of-type(1){
+                     li{
+                        &:nth-child(1){
+                           i{
+                               background:#e25939;
+                            }
+                           span{
+                               color:#b41300;
+                           } 
+                        }
+                        &:nth-child(2){
+                           i{
+                               background:#9d92f2;
+                            }
+                           span{
+                               color:#9c9c9c;
+                           } 
+                        } 
+                        &:nth-child(3){
+                           i{
+                               background:#fc9a01;
+                            }
+                           span{
+                               color:#9c9c9c;
+                           } 
+                        }  
+                         
+                     }
+                 }
+                 &:nth-child(2){
+                    li{
+                        i{
+                            background:#49d960;
+                        }
+                    } 
+                 }
+                 &:nth-child(3){
+                    li{
+                        &:nth-child(1){
+                           i{
+                               background:#15c1f1;
+                            }
+                           span{
+                               color:#4a862e;
+                           } 
+                        }
+                        &:nth-child(2){
+                           i{
+                               background:#edc500;
+                            }
+                           span{
+                               color:#be142f;
+                           } 
+                        } 
+                     }
+                 }
+                 &:nth-child(4){
+                    li{
+                        i{
+                            background:#38c79b;
+                        }
+                    } 
+                 }
+                 &:nth-child(5){
+                    li{
+                        &:nth-child(1){
+                           i{
+                               background:#31d0b2;
+                            }
+                        }
+                        &:nth-child(2){
+                           i{
+                               background:#f28582;
+                            }
+                        }
+                        &:nth-child(3){
+                           i{
+                               background:#3eb0f7;
+                            }
+                        }
+                        &:nth-child(4){
+                           i{
+                               background:#ff8426;
+                            }
+                        }
+                        &:nth-child(5){
+                           i{
+                               background:#ffae1e;
+                            }
+                        }
+                     }
+                 }
+                    
+              }
+           
+            }
+        }
+        
+        
+    }
+}

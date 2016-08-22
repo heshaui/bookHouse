@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 <div id="m-index">
 	<div id="m-home"> 
@@ -147,3 +148,17 @@
   	</div>
  </div>
   
+=======
+<div class="m-home">
+  <header>精选</header>
+  <nav>
+    <ul>
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </nav>
+  <section></section>
+</div>
+>>>>>>> master

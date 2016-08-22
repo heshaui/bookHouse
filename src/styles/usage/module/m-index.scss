@@ -4,8 +4,9 @@
     @include flexbox();
     @include flex-direction(column);
     #m-container{
-        width:100%;
+        width:100%!important;
         @include flex();
+        position: relative;
     }
     footer{
         height:.48rem;
@@ -14,6 +15,31 @@
             height:100%;
             @include flexbox();
             background:#414141;
+            li{
+                @include flexbox();
+                @include flex();
+                @include flex-direction(column);
+                &.active i,
+                &.active b{
+                    color:#4bd72e;
+                }
+                b,i{
+                    display: block;
+                    text-align: center;
+                    @include flex();
+                    width:100%;
+                    color:#fff;
+                    
+                }
+                b{
+                    font-size:.12rem;
+                    font-weight:normal;
+                }
+                i{
+                    font-size:.2rem;
+                }
+            }
         }
     }
+
 }

@@ -1,0 +1,111 @@
+#m-container{
+    .m-honorRoll{
+        @include flexbox();
+        @include flex-direction(column);
+        header{
+            width:100%;
+            height:.46rem;
+            background:#f0f0f0;
+            @include border(0 0 1px 0,$border-color);
+            text-align:center ;
+            font-size:.2rem;
+            line-height:.46rem;
+            color:$font-color;
+        }        
+        section{
+            width:100%!important;
+            @include flex();
+            overflow: hidden;
+            article{
+                width:100%;
+                @include flexbox();
+                @include flex-direction(column);
+                background:#fff;
+                h3{
+                    width:100%;
+                    border-top:.09rem solid #f8f8f8;
+                    color:$font-color;
+                    line-height:.44rem;
+                    font-size:.15rem;
+                    text-indent:.15rem;
+                    @include border(0 0 1px 0,$border-color);
+                }
+                ul{
+                   width:100%;
+                   li{
+                      height:1.03rem;
+                      @include border(0 0 1px 0,$border-color);
+                      @include flexbox();
+                      @include align-items(center);
+                      i{
+                          display: block;
+                          padding:0 .15rem;
+                          img{
+                              width:.64rem;
+                          }
+                      }
+                      div{
+                          @include flex();
+                          padding:0 .15rem;
+                          b{
+                              color:#626262;
+                              font-size:.14rem;
+                              line-height:.24rem;
+                          }
+                          p{
+                              width:100%;
+                              color:#989898;
+                              font-size:.14rem;
+                              @include ellipsis(100%, 1);                          
+                          }
+                      }
+                          
+                    }
+                   
+                }
+                .roll{
+                       border-top:.09rem solid #f8f8f8;
+                       height:.6rem;
+                       padding:.1rem 0;
+                       @include flexbox();
+                       p{
+                           @include flex();
+                           padding-left:.15rem;
+                           @include flexbox();
+                           @include align-items(center);
+                           i{
+                               display: block;
+                               width:.27rem;
+                               height:.27rem;
+                               line-height:.27rem;
+                               text-align: center;
+                               color:#fff;
+                               font-size:.16rem;
+                               @include border-radius(50%);
+                           }
+                           b{
+                               display: block;
+                               font-weight: normal;
+                               font-size:.14rem;
+                               padding-left: .25rem;
+                               color:#676767;
+                           }
+                           &:nth-child(1){
+                               @include border(0 1px 0 0,#eee);
+                               i{
+                                   background:#2dd245;
+                               }
+                           }
+                           &:nth-child(2){
+                               @include border(0 0 0 1px,#e3e3e3);
+                               i{
+                                   background:#ffc122;
+                               }
+                           }
+                       } 
+                    }
+            }    
+        }
+                 
+    }    
+}

@@ -1,12 +1,27 @@
 <div class="m-index">
-  <div id="m-container"><div>	 	
+  <div id="m-container"></div>	 	
   <footer>
-  	<ul class="index-nav">
-		<li><i class='yo-ico'>&#xe64b;</i><b>书架</b></li>
-		<li><i class='yo-ico'>&#xe61a;</i><b>精选</b></li>
-		<li><i class='yo-ico'>&#xe602;</i><b>分类</b></li>
-		<li><i class='yo-ico'>&#xe655;</i><b>榜单</b></li>
-		<li><i class='yo-ico'>&#xe637;</i><b>我的</b></li>
-	</ul>	
+	  	<ul id="index-nav">
+			<li action-type='switch' data-name="bookShelf">
+				<i class='yo-ico'>&#xe64b;</i>
+				<b>书架</b>
+			</li>
+			<li class="active" data-name='home' action-type='switch'>
+				<i class='yo-ico'>&#xe61a;</i>
+				<b>精选</b>
+			</li>
+			<li data-name='sort' action-type='switch'>
+				<i class='yo-ico'>&#xe602;</i>
+				<b>分类</b>
+			</li>
+			<li data-name='honorRoll' action-type='switch'>
+				<i class='yo-ico'>&#xe655;</i>
+				<b>榜单</b>
+			</li>
+			<li data-name='my' action-type='switch'>
+				<i class='yo-ico'>&#xe637;</i>
+				<b>我的</b>
+			</li>
+		</ul>	
   </footer>
 </div>
