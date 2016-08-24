@@ -1,0 +1,27 @@
+<div class="m-detail">
+	<header>热门好书</header>
+	<section spa-widget="scroll" id="detail-section" data-scroll-id="myScroll">
+		<article>
+		<div class="head">
+     <img src="/bookHouse/images/arrow.png"/>
+     <span>下拉刷新...</span>
+   </div>
+			<ul class="list">
+				<li class="li" ms-repeat-el="detail" action-type="goto.detail" ms-attr-data-id="el.id">
+					<i class="i"><img ms-src="el.imgsrc" alt="" /></i>
+					<ul>
+						<li><b ms-text="el.title"></b> <a href="javascript:;"><i ms-text="el.finish"></i></a></li>
+						<li ms-text="el.subtit"></li>
+						<li ms-text="el.detail"></li>
+						<li><i class="yo-ico">&#xe611;</i><span ms-text="el.downnum"></span><b ms-text="el.wordnum"></b><a href="javascript:;">免费试读</a></li>
+					</ul>
+				</li>
+			</ul>
+		 <div class="foot">
+     <img src="/bookHouse/images/arrow.png"/>
+     <span>上拉加载更多...</span>
+   </div>
+		</article>
+	</section>
+	<footer><i class="yo-ico" onclick="Javascript:window.history.go(-1)">&#xe69f;</i></footer>
+</div>

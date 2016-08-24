@@ -8,3 +8,4 @@ require('views/bookShelf.js');
 require('views/sort.js');
 require('views/honorRoll.js');
 require('views/my.js');
+require('views/detail.js');

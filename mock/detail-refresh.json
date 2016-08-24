@@ -1,0 +1,56 @@
+{
+  "message": "",
+  "ret": 0,
+  "data":[  
+    {
+      "id": 1,
+      "imgsrc": "/bookHouse/images/d_6.png",
+      "title": "最强农民混都市",
+      "subtit": "飞舞激扬",
+      "finish":"",
+      "detail": "天苍苍野茫茫,纯美校花爱农民!大学四年,校花多次设计都失身未遂,毕业在即,小刚就要回乡种地了,今晚,是她最后的机会......",
+      "downnum":"7.3万",
+      "wordnum":"976.3万字"
+    },
+    {
+      "id": 2,
+      "imgsrc": "/bookHouse/images/d_7.png",
+      "title": "绝世剑神",
+      "subtit": "黑暗火龙",
+      "finish":"",
+      "detail": "天灵大陆，武道为尊！反手苍穹覆灭，弹指日月变色！",
+      "downnum":"6.8万",
+      "wordnum":"618.97万字"
+    },
+    {
+      "id": 3,
+      "imgsrc": "/bookHouse/images/d_8.png",
+      "title": "武道至尊",
+      "subtit": "暗夜悠殇",
+      "finish":"",
+      "detail": "神武血脉，君临天下；金身之威，问鼎苍穹！",
+      "downnum":"5.1万",
+      "wordnum":"1079.64万字"
+    },
+    {
+      "id": 4,
+      "imgsrc": "/bookHouse/images/d_9.png",
+      "title": "修罗武神",
+      "subtit": "善良的蜜蜂",
+      "finish":"",
+      "detail": "玄功武技，无师自通！众生视我为修罗，我已成武神！",
+      "downnum":"4.9万",
+      "wordnum":"574.29万字"
+    },
+    {
+      "id": 5,
+      "imgsrc": "/bookHouse/images/d_10.png",
+      "title": "符皇",
+      "subtit": "萧瑾瑜",
+      "finish":"完结",
+      "detail": "制神符，炼体魄，修无上剑道，悟法则奥义！",
+      "downnum":"6.6万",
+      "wordnum":"780.4万字"
+    }
+  ]
+}
