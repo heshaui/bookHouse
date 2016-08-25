@@ -1,43 +1,112 @@
-<div class="m-sort">
-<header><i>分类</i></header>
-<nav>
-<input type="text" placeholder="请输入书名或作者"/>
-<ul class="yo-tab">
-    <li class="item">分类</li>
-    <li class="item item-on">发现</li>
-    <li class="item">淘书</li>
-</ul>
-</nav>
-<section spa-widget="scroll">
-   <article>
-   		<h3>男频分类</h3>
-        <ul>
-            <li><img src="/bookHouse/images/101.jpg"</li>
-            <li>奇幻科幻<span>599</span></li>
-            <li> 1</li>
-            <li>仙侠武侠<span>2102</span></li>
-            <li>东方玄幻<span>1062</span></li>
-            <li>悬疑惊悚<span>153</span></li>
-            <li>热血都市<span>2504</span></li>
-            <li>网游竞技<span>548</span></li>
-            <li>历史军事<span>461</span></li>
-            <li>异界争霸<span>219</span></li>
-        </ul>
-       <h3>女频分类</h3>
-   </article>
-</section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-</div>
+        <div class="m-sort">
+        <header><i>分类</i></header>
+        <nav id="sort-nav">
+            <input type="text" placeholder="请输入书名或作者"/>
+            <ul >
+                <li class="active">分类</li>
+                <li>发现</li>
+                <li>淘书</li>
+            </ul>
+        </nav>
+               <div class="swiper-container" id="sort-swiper">
+                <div class="swiper-wrapper">
+                 <div class="swiper-slide">
+                        <section spa-widget="scroll">
+                           <article >   
+                           		<h3>男频分类</h3>
+                                <ul>
+                                    <li><img src="/bookHouse/images/101.jpg"</li>
+                                    <li>奇幻科幻<span>599</span></li>
+                                    <li> 1</li>
+                                    <li>仙侠武侠<span>2102</span></li>
+                                    <li>东方玄幻<span>1062</span></li>
+                                    <li>悬疑惊悚<span>153</span></li>
+                                    <li>热血都市<span>2504</span></li>
+                                    <li>网游竞技<span>548</span></li>
+                                    <li>历史军事<span>461</span></li>
+                                    <li>异界争霸<span>219</span></li>
+                                </ul>
+                               <h3>女频分类</h3>
+                               <ul>
+                                    <li><img src="/bookHouse/images/102.jpg"</li>
+                                    <li>古代言情<span>1059</span></li>
+                                    <li> 1</li>
+                                    <li>都市言情<span>1564</span></li>
+                                    <li>古代穿越<span>1762</span></li>
+                                    <li>青春校园<span>1538</span></li>
+                                    <li>奇幻言情<span>304</span></li>
+                                    <li>霸道总裁<span>684</span></li>
+                               </ul>
+                           </article>
+                        </section>
+                        </div> 
+                    <div class="swiper-slide">
+                    	<article spa-widget="scroll">
+                    		<div class="sort__a">
+                    			<ul>
+                    				<li><img src="/bookHouse/images/sort__1.jpg"/></li>
+                    				<li><img src="/bookHouse/images/sort__1.jpg"/></li>
+                    				<li><img src="/bookHouse/images/sort__1.jpg"/></li>
+                  			    </ul>                   			
+                    		</div>
+                    	</article>
+                    </div>
+                    <div class="swiper-slide" >
+                    <article spa-widget="scroll">
+                   	<div>
+                    <h4>千万用户点击</h4>
+                    <ul>
+                        <li class="lie">
+                         <img src="/bookHouse/images/sort1.jpg" alt="" />
+                              <b>校花的贴身高手</b>
+                              <i>鱼人二代</i>
+                              <span>史上最牛跟班出现了，我可是卖艺不卖身的！</span>
+                        </li>
+                        <li class="lie">
+                          <img src="/bookHouse/images/sort2.jpg" alt="" />
+                              <b>极品家丁</b>
+                              <i>禹岩</i>
+                              <span>年轻的销售经理，因为一次意外经历，来到了一个完全不的世界</span>                                     
+                        </li>
+                        <li class="lie">
+                           <img src="/bookHouse/images/sort3.jpg" alt="" />
+                              <b>痞仙邪少</b>
+                              <i>幼阳</i>
+                              <span>想要修炼成神其实是很简单的事，只需要有一点小运气</span>
+                                            
+                        </li>
+                        <li class="lie">
+                          <img src="/bookHouse/images/sort4.jpg" alt="" />
+                              <b>武破九霄</b>
+                              <i>花颜</i>
+                              <span>身若游龙，脚破苍穹虚空！ 心若猛虎，击杀万千</span>
+                                               
+                        </li>
+                        <li class="lie">
+                          <img src="/bookHouse/images/sort5.jpg" alt="" />
+                              <b>丫头，宠你没商量</b>
+                              <i>菲丫头</i>
+                              <span>在学校的人眼中，她是逗比萌的奶茶小妹，可在他眼中，却是最美的存在。</span>
+                                               
+                        </li>
+                        <li class="lie">
+                          <img src="/bookHouse/images/sort6.jpg" alt="" />
+                              <b>女总裁的特种神医</b>
+                              <i>日月星辰</i>
+                              <span>曾经的兵王之王，一手握生死，一掌定乾坤；如今的赤脚医生，醒掌天下权</span>
+                                               
+                        </li>
+                        <li class="lie">
+                          <img src="/bookHouse/images/sort7.jpg" alt="" />
+                              <b>重生之影后王座</b>
+                              <i>前尘远歌</i>
+                              <span>前世被渣男设计而死，重活一世，她只想拿回失去的一切</span>
+                                               
+                        </li>
+                    </ul>
+                    </div>
+                    </article>
+                    </div>                                
+            </div>
+           </div>
+       </div>   

@@ -3,24 +3,28 @@
 	"ret":0,
 	"data":[
 		{
+		"id":1,
 			"imgSrc":"/bookHouse/images/img_man1.jpg",
 			"info":"一口冰剑，一柄炎刀，一个屹立绝顶的神皇传说！",
 			"title":"刀剑神皇",
 			"author":"乱世狂刀"
 		},
 		{
+		"id":2,
 			"imgSrc":"/bookHouse/images/img_man2.jpg",
 			"info":"强大武者，可斩断河流、开辟大山，通天彻地，遨游太虚！",
 			"title":"绝世武神",
 			"author":"净无痕"
 		},
 		{
+		"id":3,
 			"imgSrc":"/bookHouse/images/img_man3.jpg",
 			"info":"以杀神之名，登封绝顶，一路伏尸百万！",
 			"title":"九星杀神",
 			"author":"铁马飞桥"
 		},		
 		{
+		"id":4,
 			"imgSrc":"/bookHouse/images/img_man4.jpg",
 			"info":"灭世传承，是沉沦杀戮，还是走上巅峰之道？",
 			"title":"灭世武修",

@@ -20,7 +20,7 @@
     			<div>
 		   		<h3>原创风向标</h3> 
 		        <ul class="orgin">     		              
-		       		<li ms-repeat-el="home">
+		       		<li ms-repeat-el="home" action-type="goto.subdetail" ms-attr-data-id="el.id">
 		                <i><img ms-src="el.imgSrc" alt="" /></i>
 		                <b ms-text="el.title"></b>
 		                <span ms-text="el.author"></span>
@@ -28,7 +28,7 @@
 		        </ul>
 		        <ul class="present">
 		          <h3>好书速递</h3> 
-		          <li ms-repeat-el="home_goodb">                           
+		          <li ms-repeat-el="home_goodb" action-type="goto.subdetail" ms-attr-data-id="el.id">                           
 		            <i><img ms-src="el.imgSrc" alt=""></i>
 		            <ul>  
                       <li ms-text="el.title"></li>
@@ -41,7 +41,7 @@
 		        <div class="sign"><img src="/bookHouse/images/sign2.jpg" alt=""></div>		        
 		        <ul class="present">
 		          <h3>原创男生</h3> 
-		          <li ms-repeat-el="home_man">                           
+		          <li ms-repeat-el="home_man" action-type="goto.subdetail" ms-attr-data-id="el.id">                           
 		            <i><img ms-src="el.imgSrc" alt=""></i>
 		            <ul>  
 		              <li ms-text="el.title"></li>
@@ -54,7 +54,7 @@
 		        <div class="comeIn">男生频道--点击进入</div>		              
 		        <ul class="present">
 		          <h3>原创女生</h3> 
-                  <li ms-repeat-el="home_nv">                           
+                  <li ms-repeat-el="home_nv" action-type="goto.subdetail" ms-attr-data-id="el.id">                           
                     <i><img ms-src="el.imgSrc" alt=""></i>
                     <ul>  
                       <li ms-text="el.title"></li>
@@ -67,7 +67,7 @@
 		        <div class="comeIn">女生频道--点击进入</div>		              
                 <ul class="present">
                   <h3>出版推荐</h3> 
-                  <li ms-repeat-el="home_chu">                           
+                  <li ms-repeat-el="home_chu" action-type="goto.subdetail" ms-attr-data-id="el.id">                           
                     <i><img ms-src="el.imgSrc" alt=""></i>
                     <ul>  
                       <li ms-text="el.title"></li>

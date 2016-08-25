@@ -6,7 +6,7 @@
           @include flex-direction(column);
           header{
               height:.46rem;
-              @include flexbox();
+              @include flexbox();              
               i{  
                   width: 100%;
                   color: #000;
@@ -19,7 +19,7 @@
           nav{
               height: 1.11rem;
               text-align: center;
-              border-bottom: .015rem solid blue;
+              
               input{
                   width:3.32rem;
                   height:.42rem;
@@ -36,6 +36,7 @@
                         color: #fff;
                         margin-right: .02rem;
                         line-height: .35rem;
+                        border: 3px  dashed #f0f0f0;
                         &:first-child{
                             background: #548ad3;
                         }
@@ -45,48 +46,112 @@
                     }
               }
           }
-          section{
-              @include flex();
-              width:100%!important;
-              overflow: hidden;
-              article{
-                 width: 100%;
-                 background: #fff;
-                
-                 h3{
-                     height: .5rem;
-                     font-size: .16rem;
-                     font-weight: normal;
-                     padding-left: .25rem;
-                     border-top: .1rem solid #f0f0f0;
-                     line-height: .4rem;
-                     border-bottom: .01rem solid #f0f0f0;
-                     
-                 }
-                 
-                 ul{
-                     width:100%;
-                     @include flexbox();
-                     @include flex-wrap(wrap);
-                     @include align-content(flex-start);
-                     height: 3.14rem;
-                     li{
-                         width:50%;
-                         height: .62rem;
-                         padding-top: .1rem;
-                         text-align: center;
-                         border-bottom: .01rem solid #f0f0f0;
-                         &:first-child img{
-                             width: 1.6rem;
-                             height: 1.5rem;
-                         }
-                         span{
-                             display: block;
-                         }
-                     }
-                 }
+          .sort__a{
+              text-align: center;
+              img{
+                  width: 90%;
+                  height: 2.5rem;
               }
           }
+          #sort-swiper{
+            @include flex();
+             width:100%!important;
+             .swiper-slide{
+                article{
+                    width: 100%;
+                }
+                  @include flexbox();
+                  width: 100%;      
+                  h4{
+                      margin-top: .09rem;
+                      width: 100%;
+                      height:.4rem;
+                      background: #fff;
+                      border-bottom: 0.5px solid #f0f0f0;
+                      font-size: .16rem;
+                      padding-left: .25rem;
+                      padding-top: .1rem;
+                  };
+                  .lie{
+                      width:100%;
+                      height: 1.4rem;            
+                      background: #fff;
+                      border-bottom: 0.5px solid #f0f0f0;
+                      padding-left: .25rem;
+                      padding-top: .11rem;
+                      position: relative;
+                      img{
+                          width: .91rem;
+                          height: 1.2rem;     
+                      }
+                      b{
+                       position: absolute;
+                       top: .1rem;
+                       font-size: .12rem;
+                       left:1.3rem;
+                      }
+                      i{
+                       position: absolute;
+                       top: .35rem;
+                       color: #ababab;
+                       left:1.3rem;
+                      }
+                      span{
+                         width: 2.2rem;
+                         position: absolute;
+                         top:.65rem;
+                         left:1.3rem;
+                         color: #ababab;
+                         font-size: .12rem;
+                     }
+                  }
+                  section{
+                      @include flex();
+                      width:100%!important;
+                      overflow: hidden;
+                      
+                      article{
+                         width: 100%;
+                         background: #fff;
+                        
+                         h3{
+                             height: .5rem;
+                             font-size: .16rem;
+                             font-weight: normal;
+                             padding-left: .25rem;
+                             border-top: .1rem solid #f0f0f0;
+                             line-height: .4rem;
+                             border-bottom: .01rem solid #f0f0f0;
+                             
+                         }
+                         
+                         ul{
+                             width:100%;
+                             @include flexbox();
+                             @include flex-wrap(wrap);
+                             @include align-content(flex-start);
+                             height: 3.14rem;
+                             li{
+                                 width:50%;
+                                 height: .62rem;
+                                 padding-top: .1rem;
+                                 text-align: center;
+                                 border-bottom: .01rem solid #f0f0f0;
+                                 &:first-child img{
+                                     width: 1.6rem;
+                                     height: 1.5rem;
+                                 }
+                                 span{
+                                     display: block;
+                                 }
+                             }
+                         }
+                      }
+                  }
+                }
+          }
+           
+    
     
     }
 }

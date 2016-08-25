@@ -5,7 +5,8 @@ SPA.defineView('home',{
 	//装载模板
 	html:indexHome,
 	
-	plugins: [{
+	plugins: [
+		'delegated',{
     	name: 'avalon',
     	options: function (vm) {
       	vm.home = [];
@@ -16,6 +17,17 @@ SPA.defineView('home',{
       	vm.home_chu=[];
     }
   }],
+  // 绑定tap
+	  bindActions: {
+	    'goto.subdetail': function (el, data) {
+	      SPA.open('subdetail', {
+	        param: {
+	          id: data.id
+	        }
+	      });
+	    }
+	  },
+	
 	
 	//绑定视图事件
 	bindEvents:{
@@ -25,7 +37,7 @@ SPA.defineView('home',{
 		
 		//获取ajax数据
 		$.ajax({
-			url:"/api/home.php",
+			url:"/bookHouse/mock/home.json",
 			type:'get',
 			
 			success:function(res){
@@ -35,7 +47,7 @@ SPA.defineView('home',{
 		});
 		//好书速递
 		$.ajax({
-			url:"/api/home_goodb.php",
+			url:"/bookHouse/mock/home_goodb.json",
 			type:'get',
 			
 			success:function(res){
@@ -44,7 +56,7 @@ SPA.defineView('home',{
 		});	
 		//原创男生
 		$.ajax({
-			url:"/api/home_man.php",
+			url:"/bookHouse/mock/home_man.json",
 			type:'get',
 			
 			success:function(res){
@@ -54,7 +66,7 @@ SPA.defineView('home',{
 		});
 		//原创女生
 		$.ajax({
-			url:"/api/home_nv.php",
+			url:"/bookHouse/mock/home_nv.json",
 			type:'get',
 			
 			success:function(res){
@@ -63,7 +75,7 @@ SPA.defineView('home',{
 		});
 				//出版推荐
 		$.ajax({
-			url:"/api/home_chu.php",
+			url:"/bookHouse/mock/home_chu.json",
 			type:'get',
 			
 			success:function(res){
@@ -72,7 +84,7 @@ SPA.defineView('home',{
 		});
 		//最想读的书
 		$.ajax({
-			url:"/api/home_want.php",
+			url:"/bookHouse/mock/home_want.json",
 			type:'get',
 			
 			success:function(res){

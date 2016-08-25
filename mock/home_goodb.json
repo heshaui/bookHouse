@@ -3,12 +3,14 @@
 	"ret":0,
 	"data":[
 		{
+		"id":1,
 			"imgSrc":"/bookHouse/images/imga1.jpg",
 			"info":"修至尊古体，获混沌本源，夺天地造化！",
 			"title":"仙魔同修",
 			"author":"化十"
 		},
 		{
+		"id":2,
 			"imgSrc":"/bookHouse/images/imga2.jpg",
 			"info":"她对爱人温柔，对敌人腹黑，顷刻间赢尽天下",
 			"title":"神赌狂后",
