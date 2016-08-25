@@ -1,147 +1,627 @@
-
-	<div class="m-home"> 
- 		<header>
- 			<i><img src="/bookHouse/images/disk_refresh.png" alt="" /></i>
- 			<h1>精选</h1>
- 			<i><img src="/bookHouse/images/search_img.png" alt="" /></i>			
- 		</header> 
-		<section spa-widget="scroll">
-		    <div  class="content">
-		      	<nav id="home-nav">
-			        <ul>
-			            <li class="active">热门</li>
-			            <li>男频</li>
-			            <li>女频</li>
-			            <li>出版</li> 
-			        </ul>
-		      	</nav>   
-		      	<div class="swiper-container" id="home-swiper">
-  				<div class="swiper-wrapper">
-	    			<div class="swiper-slide">
-			   		<h3>原创风向标</h3> 
-			        <ul class="orgin">     		              
-			       		<li>
-			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
-			                <b>混沌天体</b>
-			                <span>骑着蜗牛去旅行</span>
-			            </li>
-			       		<li>
-			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
-			                <b>混沌天体</b>
-			                <span>骑着蜗牛去旅行</span>
-			            </li>
-			       		<li>
-			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
-			                <b>混沌天体</b>
-			                <span>骑着蜗牛去旅行</span>
-			            </li>
-			        </ul>
-			        <ul class="present">
-			          <h3>好书速递</h3> 
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			        </ul>
-			        <ul class="present">
-			          <h3>原创男生</h3> 
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			        </ul>        
-			        <ul class="present">
-			          <h3>原创女生</h3> 
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			          <li>                           
-			            <i><img src="/bookHouse/images/img1.jpg" alt=""></i>
-			            <ul>  
-			              <li>啥技术的</li>
-			              <li>花式</li>
-			              <li>收点卡了盛大开多久啊撒开了</li>
-			              <li>免费试读</li>
-			            </ul>
-			          </li>
-			        </ul>
-			        <h3 class="wantRead">最想读的书</h3>
-			        <ul class="orgin">                        
-			            <li>
-			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
-			                <b>混沌天体</b>
-			                <span>骑着蜗牛去旅行</span>
-			            </li>
-			            <li>
-			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
-			                <b>混沌天体</b>
-			                <span>骑着蜗牛去旅行</span>
-			            </li>
-			            <li>
-			                <i><img src="/bookHouse/images/img1.jpg" alt="" /></i>
-			                <b>混沌天体</b>
-			                <span>骑着蜗牛去旅行</span>
-			            </li>
-			        </ul> 
-			        <div class="sign"><img src="/bookHouse/images/sign.jpg" alt=""></div>
-			        <div class="copy">
-			            <div>
-			                <p>三味书屋书迷QQ群：109745941</p>
-			                <p>请及时升级三味书屋最新版本，惊喜不断</p>
-			                <p>Readingjoy&copy;2015版权所有</p>
-			            </div>
-			        </div>       
-			    	</div>  
-			    	<div class="swiper-slide">男频</div>
-			    	<div class="swiper-slide">女频</div>
-			    	<div class="swiper-slide">出版</div>			    	
-		  		</div>
+<div class="m-home"> 
+	<header>
+		<i><img src="/bookHouse/images/disk_refresh.png" alt="" /></i>
+		<h1>精选</h1>
+		<i><img src="/bookHouse/images/search_img.png" alt="" /></i>			
+	</header> 
+	<section spa-widget="scroll">
+	    <div  class="content">
+	      	<nav id="home-nav">
+		        <ul>
+		            <li class="active">热门</li>
+		            <li>男频</li>
+		            <li>女频</li>
+		            <li>出版</li> 
+		        </ul>
+	      	</nav> 
+	      	<div class="swiper-container" id="home-swiper">
+			<div class="swiper-wrapper">
+    			<div class="swiper-slide"  spa-widget="scroll">
+    			<div>
+		   		<h3>原创风向标</h3> 
+		        <ul class="orgin">     		              
+		       		<li ms-repeat-el="home">
+		                <i><img ms-src="el.imgSrc" alt="" /></i>
+		                <b ms-text="el.title"></b>
+		                <span ms-text="el.author"></span>
+		            </li>
+		        </ul>
+		        <ul class="present">
+		          <h3>好书速递</h3> 
+		          <li ms-repeat-el="home_goodb">                           
+		            <i><img ms-src="el.imgSrc" alt=""></i>
+		            <ul>  
+                      <li ms-text="el.title"></li>
+                      <li ms-text="el.author"></li>
+                      <li ms-text="el.info"></li>
+                      <li>免费试读</li>
+		            </ul>
+		          </li>
+		        </ul>
+		        <div class="sign"><img src="/bookHouse/images/sign2.jpg" alt=""></div>		        
+		        <ul class="present">
+		          <h3>原创男生</h3> 
+		          <li ms-repeat-el="home_man">                           
+		            <i><img ms-src="el.imgSrc" alt=""></i>
+		            <ul>  
+		              <li ms-text="el.title"></li>
+		              <li ms-text="el.author"></li>
+		              <li ms-text="el.info"></li>
+		              <li>免费试读</li>
+		            </ul>
+		          </li>                           
+		        </ul>  
+		        <div class="comeIn">男生频道--点击进入</div>		              
+		        <ul class="present">
+		          <h3>原创女生</h3> 
+                  <li ms-repeat-el="home_nv">                           
+                    <i><img ms-src="el.imgSrc" alt=""></i>
+                    <ul>  
+                      <li ms-text="el.title"></li>
+                      <li ms-text="el.author"></li>
+                      <li ms-text="el.info"></li>
+		              <li>免费试读</li>
+		            </ul>
+		          </li>
+		        </ul>
+		        <div class="comeIn">女生频道--点击进入</div>		              
+                <ul class="present">
+                  <h3>出版推荐</h3> 
+                  <li ms-repeat-el="home_chu">                           
+                    <i><img ms-src="el.imgSrc" alt=""></i>
+                    <ul>  
+                      <li ms-text="el.title"></li>
+                      <li ms-text="el.author"></li>
+                      <li ms-text="el.info"></li>
+                      <li>免费试读</li>
+                    </ul>
+                  </li>
+                </ul>
+                <div class="comeIn">出版频道--点击进入</div>    		        
+		        <h3 class="wantRead">最想读的书</h3>
+		        <ul class="orgin">                        
+		            <li ms-repeat-el="home_want">
+		                <i><img ms-src="el.imgSrc" alt="" /></i>
+		                <b ms-text="el.title"></b>
+		                <span ms-text="el.author"></span>
+		            </li>
+		        </ul> 
+		        <div class="sign"><img src="/bookHouse/images/sign.jpg" alt=""></div>
+		        <div class="copy">
+		            <div>
+		                <p>三味书屋书迷QQ群：109745941</p>
+		                <p>请及时升级三味书屋最新版本，惊喜不断</p>
+		                <p>Readingjoy&copy;2015版权所有</p>
+		            </div>
+		        </div> 
+		        </div>      
+		    	</div>  
+		    	<div class="swiper-slide" spa-widget="scroll">
+		    	   <div>
+		            <div class="sign"><img src="http://farm1.cdn1.static.mitang.com/M01/48/96/pYYBAFWfEyaALqmIAAA_Duw5s-Q379/dz.jpg" alt=""></div>		        		    	
+                    <ul class="present">
+                      <h3>重点推荐</h3> 
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M00/AA/2F/dzkV7FMznGTwe8uAAAAiu8zpFWM201/180x240_73196_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>焚天绝神</li>
+                          <li>魂圣</li>
+                          <li>修真干嘛那么累？养养灵兽，调戏下仙子，这多悠闲！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M01/14/9E/pYYBAFYt6U-ADUIiAAAn96smuoQ266/180x240_716713_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>神控天下</li>
+                          <li>我本圣洁</li>
+                          <li>凭一手奇异功法，走完这场巅峰之旅。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="bang">
+                        <ul>
+                          <li>红书榜</li>
+                          <li>追更榜</li>
+                          <li>全书榜</li>
+                        </ul>
+                    </div>  
+                    <h3 class="wantRead">本周热卖TOP5</h3>
+                    <ul class="orgin">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M02/BD/9B/p4YBAFepRKKAeT_XAAAkKyPcLp8923/104855_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>符皇</b>
+                            <span>肖瑾瑜</span>
+                        </li>
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/A7/66/p4YBAFdGva-AU0ypAAAyCNJ53j0980/180x240_105133_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>混沌邪神</b>
+                            <span>小鱼</span>
+                        </li> 
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/A7/64/p4YBAFdGvZOAUVYcAAAudSoub9A540/180x240_104985_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>异界逍遥天尊</b>
+                            <span>狂奔的蜗牛</span>
+                        </li>                         
+                    </ul>                     
+                    <ul class="present" style="margin:0;">
+                      <li>                           
+                       <ul style="margin-left:-.2rem;">  
+                          <li>战旗凌霄</li>
+                          <li>新闻工作者</li>
+                          <li>机缘巧合，成天书之主，夺造化，夺天命，装X玩到底！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>  
+                      <li>                           
+                       <ul style="margin:.1rem 0 0 -.2rem;">  
+                          <li>太古神墓</li>
+                          <li>小龙卷风</li>
+                          <li>这一世要脚踏诸天，拳破寰宇，战天下至强！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>  
+                    </ul>                           
+                    <div class="sign"><img src="http://farm3.static.mitang.com/M01/07/96/p4YBAFbfmkGAMg1vAAEZckx8qDs107/duxinshu.jpg" alt=""></div>  
+                    <ul class="present">
+                      <h3>特别推荐</h3> 
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M01/91/F9/pYYBAFXgE2aACzMjAAAwWlBnVgo844/771894_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>御天神帝</li>
+                          <li>乱世狂刀</li>
+                          <li>大千世界，界域三千，少年横空出世，霸绝诸天！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="bang">
+                        <ul>
+                          <li>玄幻</li>
+                          <li>都市</li>
+                          <li>悬疑</li>
+                          <li>异界</li>
+                        </ul>
+                    </div> 
+                    <h3 style="margin-top:10px;">新书上榜</h3> 
+                    <ul class="orgin">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M02/DE/3E/p4YBAFe6W1-AMKbUAAAsKoOD9pc518/180x240_699895_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>武道至尊</b>
+                            <span>暗夜幽殇</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M02/DE/3E/p4YBAFe6W12AORZWAAAvq3WJPNE599/180x240_699889_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>混沌剑神</b>
+                            <span>心星逍遥</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M00/A8/05/dzkV7FMvwM-ihC_fAAAnPTaum08815/180x240_75442_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>神霄煞仙</b>
+                            <span>半块铜板</span>
+                        </li>                    
+                    </ul>
+                    <ul class="orgin" style="padding-top:15px;">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M00/8E/29/OkTsIFR2juuXAk_8AAAv5K97tEY964/180x240_699617_cover.jpg?mobileNetDownload=false"" alt="" /></i>
+                            <b>斩龙</b>
+                            <span>失落叶</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M00/8E/25/OkTsIFR2jjrrbsbnAAAt6X3G5zA868/180x240_699408_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>武道乾坤</b>
+                            <span>新版红双喜</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M00/27/59/p4YBAFd_GkaALJf_AAAqzc1jlsQ904/180x240_699107_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>六道仙尊</b>
+                            <span>云霆飞</span>
+                        </li>                    
+                    </ul>                    
+                    <div class="bang">
+                        <ul>
+                          <li>新书飙升榜入口</li>
+                        </ul>
+                    </div>                     
+                    <ul class="present">
+                      <h3>热血都市</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M00/9D/A3/p4YBAFVHOfSAIoi8AAApll38xzA206/180x240_755953_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>天才黄金手</li>
+                          <li>饱食</li>
+                          <li>他点水成金，叱咤商场，笑傲热血，永不言败！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M01/E8/37/pYYBAFVcT9mAcydmAAA_qY9ePC0856/180x240_752988_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>苗疆蛊事</li>
+                          <li>南无袈裟理科佛</li>
+                          <li>苗疆蛊事，祸患千年！全新蛊战，血腥开启！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>                    
+                    <ul class="present">
+                      <h3>异界玄幻</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M00/27/59/p4YBAFd_GkKAflzCAAAooZIGF8U090/180x240_104853_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>吞天绝</li>
+                          <li>铁马飞桥</li>
+                          <li>一个陌生位面,一部逆天功法,一条伏尸百万的巅峰之路！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M02/D4/36/p4YBAFe0KpKAX0GhAAAuGxwy8Ss761/825178_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>异世灵武天下</li>
+                          <li>禹枫</li>
+                          <li>灵武双修，不世霸枭，既然来了，就要留下一世传奇！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>                         
+                    <div class="sign" style="margin-top:10px;"><img src="http://farm1.static.mitang.com/M01/F6/80/pYYBAFVoAfWAZ78nAAExaLeR0Es004/huiyuan.jpg" alt=""></div>                                                            
+		    	 </div>
+		    	</div>
+		    	
+		    	<div class="swiper-slide" spa-widget="scroll">
+		    	   <div>
+		            <div class="sign"><img src="http://farm3.static.mitang.com/M01/72/67/p4YBAFcv45iAfVDbAAGHno2Pfyk119/88.jpg" alt=""></div>		        		    	
+                    <ul class="present">
+                      <h3>重点推荐</h3> 
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M00/AA/2F/dzkV7FMznGTwe8uAAAAiu8zpFWM201/180x240_73196_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>将门嫡女</li>
+                          <li>颜新</li>
+                          <li>穿越之后，化身将门嫡女，阴险的二娘，恶毒姐妹，看她如何惩治恶人！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M00/A8/0B/dzkV7FMvwkPh2PbQAAAtbE0uv5c266/180x240_76165_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>侯门嫡女</li>
+                          <li>素素雪</li>
+                          <li>敢爱敢恨的她最终能否放下仇恨，找到心的祥和与安宁！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="bang">
+                        <ul>
+                          <li>红文馆</li>
+                          <li>追更馆</li>
+                          <li>全书馆</li>
+                        </ul>
+                    </div>  
+                    <h3 class="wantRead">一周热卖TOP5</h3>
+                    <ul class="orgin">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/FE/B0/p4YBAFdwmPuARNzPAAA2QxG8eUI539/76366_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>朕本红妆</b>
+                            <span>央央</span>
+                        </li>
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/A7/A3/p4YBAFdGwJOABOKPAAA0xpcd1bI293/180x240_99965_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>盛世女皇商</b>
+                            <span>真爱未凉</span>
+                        </li> 
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M00/A8/23/dzkV7FMvx0qQxiNSAAAuZSXzwhg037/180x240_76987_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>重生之锦绣嫡女</b>
+                            <span>醉疯魔</span>
+                        </li>                         
+                    </ul>                     
+                    <ul class="present" style="margin:0;">
+                      <li>                           
+                       <ul style="margin-left:-.2rem;">  
+                          <li>替身王妃</li>
+                          <li>阿彩</li>
+                          <li>为那高贵倾城的姐姐，她披上嫁衣，嫁给那传闻冷血无情的修罗王爷。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>  
+                      <li>                           
+                       <ul style="margin:.1rem 0 0 -.2rem;">  
+                          <li>冷爷热妃之嫡女当家</li>
+                          <li>雨凉</li>
+                          <li>为洗清白，为正嫡女之威，她从窝囊一朝变成猛女。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>  
+                    </ul>                           
+                    <div class="sign"><img src="http://farm3.static.mitang.com/M01/A2/59/p4YBAFdEFgWAMvC4AAGFrWaq0iQ402/567.png" alt=""></div>  
+                    <ul class="present">
+                      <h3>特别推荐</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/A7/A3/p4YBAFdGwJSAdxOMAAAr_TOEbnQ798/180x240_99974_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>天下无双：王妃太嚣张</li>
+                          <li>处雨潇湘</li>
+                          <li>女主拦路，男主炸桥，宝宝打劫，女强VS男更强！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="bang">
+                        <ul>
+                          <li>穿越</li>
+                          <li>言情</li>
+                          <li>总裁</li>
+                          <li>宫斗</li>
+                        </ul>
+                    </div> 
+                    <h3 style="margin-top:10px;">新书上榜</h3> 
+                    <ul class="orgin">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/D4/33/p4YBAFdXtFeAC5fJAAAs1_5uvlI039/76166_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>懒妃倾城</b>
+                            <span>铭荨</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M01/AF/BB/pYYBAFeIoISADkHAAAAm2j72Dzs497/105597_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>重生之庶女归来</b>
+                            <span>汶潇潇</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M01/5A/AE/pYYBAFWt8X-ABgoUAAAulg_i20c787/76686_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>妾本惊华</b>
+                            <span>西子情</span>
+                        </li>                    
+                    </ul>
+                    <ul class="orgin" style="padding-top:15px;">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/03/AC/p4YBAFdzhyiASD9ZAAApv0eXhV4545/97846_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>丑后京城</b>
+                            <span>唐寅才子</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/A7/86/p4YBAFdGvzCAWBA2AAAiP_bSs1k095/180x240_76709_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>一品皇妃</b>
+                            <span>冷烟花</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/A7/99/p4YBAFdGwCGACD84AAAc_j0Ub3Q586/180x240_87518_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>医手遮天：嫡女要发威</b>
+                            <span>慕璎珞</span>
+                        </li>                    
+                    </ul>                    
+                    <div class="bang">
+                        <ul>
+                          <li>新书馆入口</li>
+                        </ul>
+                    </div>                     
+                    <ul class="present">
+                      <h3>浪漫庄园</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/A7/8E/p4YBAFdGv5CADXXUAAAn_TdcRdA015/180x240_782567_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>田园茶香之贵女嫡医</li>
+                          <li>妖娆小桃</li>
+                          <li>利用空间致富斗极品，开启锦绣商途觅得最帅男神为夫。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/A7/9B/p4YBAFdGwDiAJUAaAAAoaBsPi2A579/180x240_88429_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>重生之田园生活</li>
+                          <li>钰阙</li>
+                          <li>什么？穿越到田园多烂漫？吃不饱好不好！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>                    
+                    <ul class="present">
+                      <h3>穿越古风</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/EE/58/p4YBAFdnZRWAPZnzAAAwGJnSQmI367/76775_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>重生之侯府嫡女</li>
+                          <li>蔓妙游蓠</li>
+                          <li>前世她受尽人间苦楚，重生她要扭转乾坤，复仇到底！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M00/CF/F4/OkTsIVSqZBOAEYNRAAA8XoN6Bb0000/180x240_712510_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>我在古代皇宫混</li>
+                          <li>冰山</li>
+                          <li>找个皇帝当老公就更不容易了，且看萌妹子在古代的爆笑之路!</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>                         
+                    <div class="sign" style="margin-top:10px;"><img src="http://farm1.static.mitang.com/M01/F6/80/pYYBAFVoAkGAMh_lAAF0__ghXNQ619/huodong.jpg" alt=""></div>                                                            
+				  </div>
+				</div>
+	
+		    	<div class="swiper-slide" spa-widget="scroll">
+		    	  <div>
+		            <div class="sign"><img src="http://farm3.static.mitang.com/M01/72/67/p4YBAFcv45iAfVDbAAGHno2Pfyk119/88.jpg" alt=""></div>		        		    	
+                    <ul class="present">
+                      <h3>重点推荐</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/2A/51/p4YBAFb82eiABn3EAAATfldotO4618/180x240_815054_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>别闹，恋爱是件正经事儿</li>
+                          <li>薛好大</li>
+                          <li>独家爆料对战渣男和轴女，修剪女汉子习性的战术秘籍。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/11/D1/p4YBAFbnuo6ACXTIAAAuOTg305Q213/180x240_817343_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>别拿村长不当干部</li>
+                          <li>李锐</li>
+                          <li>他曾北漂，也曾迷惘。独家披露李锐励志成长史！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="bang">
+                        <ul>
+                          <li>好评榜</li>
+                          <li>销量榜</li>
+                          <li>热搜榜</li>
+                        </ul>
+                    </div>  
+                    <h3 class="wantRead">经典热销TOP5</h3>
+                    <ul class="orgin">                        
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/09/4E/p4YBAFbg4OWAY6RVAAAzmZM4HyE889/808536_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>龙之花嫁</b>
+                            <span>苏秦</span>
+                        </li>
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/09/51/p4YBAFbg4-yADpmKAAAoVz3zglQ638/808038_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>一身孤注掷温柔终章</b>
+                            <span>春衫冷</span>
+                        </li> 
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/11/D1/p4YBAFbnupWAfRm5AAAr3XXtxrE630/180x240_817365_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>益往直前</b>
+                            <span>水均益</span>
+                        </li>                         
+                    </ul>                     
+                    <ul class="present" style="margin:0;">
+                      <li>                           
+                       <ul style="margin-left:-.2rem;">  
+                          <li>此生遇见你已很美</li>
+                          <li>仲利民 </li>
+                          <li>讲述每个人都曾经历或必将经历爱情记忆！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>  
+                      <li>                           
+                       <ul style="margin:.1rem 0 0 -.2rem;">  
+                          <li>活着就是去战斗</li>
+                          <li>杨本成 </li>
+                          <li>身在职场,活着就是去战斗，一本写给职场新人的开窍书。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>  
+                    </ul>                           
+                    <div class="sign"><img src="http://farm3.cdn1.static.mitang.com/M01/CD/B9/p4YBAFbQF82AZsSvAAFIKaX09ow273/9.jpg" alt=""></div>  
+                    <ul class="present">
+                      <h3>经典导读</h3> 
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/D2/AA/p4YBAFbTn82AD1dqAAAeZVMvkHg241/783071_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>世界如此复杂，你要内心强大</li>
+                          <li>周小渔</li>
+                          <li>世界复杂，看清世界掌控自己的命运，就从这本书开始。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                    </ul>
+                    <div class="bang">
+                        <ul>
+                          <li>励志</li>
+                          <li>小说</li>
+                          <li>历史</li>
+                          <li>情感</li>
+                          <li>文学</li>
+                        </ul>
+                    </div> 
+                    <h3 style="margin-top:10px;">新书上榜</h3> 
+                    <ul class="orgin">                        
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M00/4C/44/dzkV61GIxxfTb-tBAAAq_ul59w8025/77878_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>大秦帝国</b>
+                            <span>孙皓晖</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M01/1C/7C/pYYBAFawWgyAIgltAAAnaNOEC1s037/180x240_808045_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>何以青衫薄</b>
+                            <span>墨苏黎</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M00/09/F9/p4YBAFTUaXOALQq8AAAaFGMNusU131/180x240_735557_cover.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>超级心理自控术</b>
+                            <span>[日]森田正马</span>
+                        </li>                    
+                    </ul>
+                    <ul class="orgin" style="padding-top:15px;">                        
+                        <li>
+                            <i><img src="http://farm1.static.mitang.com/M01/0C/AE/pYYBAFawOCyADThnAAHa43znRsw090/748107_180X240.png?mobileNetDownload=false" alt="" /></i>
+                            <b>苦才是人生</b>
+                            <span>索达吉堪布</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/1F/28/p4YBAFd8pmiASJ-EAAAlHTWE8tI416/808594_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>如若有你，一世欢喜</b>
+                            <span>锦竹</span>
+                        </li>                    
+                        <li>
+                            <i><img src="http://farm3.static.mitang.com/M01/14/A6/p4YBAFbqW4SAaDPEAAAiBwIXz5w675/816286_180X240.jpg?mobileNetDownload=false" alt="" /></i>
+                            <b>恋上你的味儿</b>
+                            <span>陈保才</span>
+                        </li>                    
+                    </ul>                                        
+                    <ul class="present">
+                      <h3>青春跟春天有个约会</h3> 
+                      <li>                           
+                        <i><img src="http://farm1.static.mitang.com/M01/BB/F1/pYYBAFYgnOSAUY9_AAAW_MGyo_0801/87172_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>山月不知心底事</li>
+                          <li>辛夷坞</li>
+                          <li>禁忌丛生的都市，谁为爱情不顾一切？</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M01/03/AB/p4YBAFdzhyGAbHqeAAAZeW_c2ug453/747876_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>微微一笑很倾城</li>
+                          <li>顾漫</li>
+                          <li>顾漫笔下的情侣，带你远离“负能量”！</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M00/FA/34/p4YBAFTJz2GAZumHAAAtwJt-sZ8762/180x240_672882_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>致我们终将逝去的青春</li>
+                          <li>辛夷坞</li>
+                          <li>连续7年青春文学销量冠军，一辈子一品再品的经典。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M00/95/BF/p4YBAFVB8piAEzZwAAArv3O03AU578/671959_180X240.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>何以笙箫默</li>
+                          <li>顾漫</li>
+                          <li>征服千万粉丝，见证她们的青春成长，成就了无数少女的校园王子梦。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>
+                      <li>                           
+                        <i><img src="http://farm3.static.mitang.com/M00/4F/17/p4YBAFURJ3uAEI3hAAAiHBAYQxw688/180x240_748034_cover.jpg?mobileNetDownload=false" alt=""></i>
+                        <ul>  
+                          <li>烈火如歌Ⅰ</li>
+                          <li>明晓溪</li>
+                          <li>本书是自《明若晓溪》系列之后，明晓溪的又一部巅峰力作，故事曲折婉转，文笔清新唯美。</li>
+                          <li>免费试读</li>
+                        </ul>
+                      </li>                                            
+                    </ul> 
+                  </div>                   
+		    	</div>			    	
 	  		</div>
-			</div>	  	
-		</section>
+  		</div>
+		</div>	  	
+	</section>
 
-  	</div>
+</div>
   

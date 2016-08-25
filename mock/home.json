@@ -1,0 +1,24 @@
+
+{
+	"message":"",
+	"ret":0,
+	"data":[
+		{
+			"imgSrc":"/bookHouse/images/img1.jpg",
+			"title":"混沌天体",
+			"author":"骑着蜗牛去旅行"
+		},
+		{
+			"imgSrc":"/bookHouse/images/img2.jpg",
+			"title":"冷漠贵妃酷皇帝",
+			"author":"瞑月流水"
+		},
+		{
+			"imgSrc":"/bookHouse/images/img3.jpg",
+			"title":"上古强身术",
+			"author":"我是多余人"
+		}		
+	]
+}
+
+

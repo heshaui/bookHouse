@@ -27,29 +27,47 @@
                 width:100%!important;
                 @include flex();  
                 overflow: hidden;
+                         
                 .content{
                     width:100%;
+                    height: 100%;
+//                  @include flex();
+                    @include flexbox();
+                    @include flex-direction(column);                           
                     nav{
                         width:100%;
                         height:.52rem;    
                         ul{
                             height: .42rem;
                             @include flexbox();
-                            background: #558ad0;
                             li{
                                 @include flex();
                                 text-align: center;
                                 line-height: .42rem;
                                 font-weight: bold;
                                 color: #FFFFFF;
-                                border: 2px solid #fff;                       
+                                border: 2px solid #fff;
+                                background: #558ad0;                     
                                 &.active{
                                     border:none;
+                                }
+                                &:nth-child(2){
+                                    background: #55aad0;
+                                }
+                                &:nth-child(3){
+                                    background: #5fb082;
+                                }
+                                &:nth-child(4){
+                                    background: #89bd48;
                                 }
                             }            
                         }        
                     } 
-                    h3,ul.orgin{
+                    #home-swiper{
+                        width:100%!important;
+                        @include flex();                            
+                    }
+                   h3,ul.orgin{
                         width:100%;                
                         background: $item-bgcolor;
                     }
@@ -76,7 +94,9 @@
                             b{
                                 font-size: 11px;
                                 color: #6e6e6e;
-                                line-height: .23rem;
+                                font-weight: normal;
+                                line-height: .24rem;
+                               @include ellipsis(100%, 1);
                             }
                             span{
                                 font-size: 10px;
@@ -120,8 +140,8 @@
                                    color: #b1b1b1;
                                    padding-left: .2rem;
                                    &:first-child{
-                                       font-weight: bold;
                                        color:#6e6e6e;
+                                       @include ellipsis(100%, 1);
                                    }
                                    &:nth-child(2){
                                        height: .24rem;;
@@ -129,9 +149,10 @@
                                        line-height: .24rem;
                                    }
                                    &:nth-child(3){
-                                       height: .29rem;;
+//                                     height: .24rem;
                                        font-size: 11px;
-                                       line-height: .29rem;                               
+                                       line-height: .24rem;  
+                                       @include ellipsis(100%, 2);                             
                                    }
                                    &:nth-child(4){
                                        padding: 0;
@@ -152,6 +173,15 @@
                             height:1.3rem;
                             padding-top:0 ;
                         }
+                    }
+                    .comeIn{
+                        width:100%;
+                        height:.35rem;
+                        background: #fefff9;
+                        text-align: center;
+                        line-height: .35rem;
+                        font-size: .18rem;
+                        @include border( 0 0 1px 0,#cdd1d2,solid);
                     }
                     .wantRead{
                         margin-top: 10px;
@@ -182,7 +212,43 @@
                                 line-height: .2rem;
                             }
                         }
-                    }                      
+                    }  
+                     .bang{
+                        width:100%;
+                        padding: 10px 15px 10px 15px;
+                        background: #fff;
+                        ul{
+                            @include flexbox();
+                            li{
+                                @include flex();
+                                font-size: 16px;
+                                line-height: 32px;
+                                text-align: center;
+                                position: relative;
+                                margin-right: 10px;
+                                width: 100%;
+                                color: #fff;
+                                border-radius: 5px;
+                                &:first-child{
+                                    background-color:#f4a5a5;
+                                }
+                                &:nth-child(2){
+                                    background-color:#f2a887 ;
+                                }
+                                &:nth-child(3){
+                                    background-color:#e8be7e ;
+                                }                                
+                                &:nth-child(4){
+                                    background-color:#b4d980;
+                                }                                
+                                &:nth-child(5){
+                                    background-color:#78e2c5 ;
+                                }                                
+                        } 
+                        
+
+                        }
+                     }                       
                 }           
             }
     }    

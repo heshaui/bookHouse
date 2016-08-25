@@ -1,0 +1,27 @@
+{
+	"message":"",
+	"ret":0,
+	"data":[
+		{
+			"imgSrc":"/bookHouse/images/img_for1.jpg",
+			"info":"太后专权由她而始，太后称谓亦始见于她",
+			"title":"大秦宣太后：芈月传奇",
+			"author":"萧盛"
+		},
+		{
+			"imgSrc":"/bookHouse/images/img_for2.jpg",
+			"info":"只要你不辜负这个世界，这个世界就绝不会辜负你",
+			"title":"藏在这世间的美好",
+			"author":"鼹鼠的土豆"
+		},
+		{
+			"imgSrc":"/bookHouse/images/img_for3.jpg",
+			"info":"解谜现实中最隐秘危险的都市男女关系。情欲之间，一念天堂，一念地狱。",
+			"title":"你的天堂，我的地狱",
+			"author":"无处可逃"
+		}		
+	]
+}	
+
+
+
