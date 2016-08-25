@@ -1,0 +1,25 @@
+{
+  "message": "",
+  "ret": 0,
+  "data":[
+    {
+      "id": 1,
+      "imgsrc": "/bookHouse/images/10.gif",
+      "title": "三味畅销榜",
+      "detail": "《鬼压床：狗眼看阴阳》《盗墓之王》《极品桃花运》"
+    },
+    {
+      "id": 2,
+      "imgsrc": "/bookHouse/images/11.gif",
+      "title": "豆瓣好评榜",
+      "detail": "《好妈妈胜过好老师》《武灵天下》"
+    },
+    {
+      "id": 3,
+      "imgsrc": "/bookHouse/images/12.gif",
+      "title": "当当热卖榜",
+      "detail": "《女人明白要趁早之三观易碎》《神医相师》《神霄煞仙》"
+    }
+    
+  ]
+}

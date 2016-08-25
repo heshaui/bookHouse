@@ -1,0 +1,31 @@
+{
+  "message": "",
+  "ret": 0,
+  "data":[
+    {
+      "id": 1,
+      "imgsrc": "/bookHouse/images/1.png",
+      "title": "三味畅销榜",
+      "detail": "《功夫神医》《我的贴身校花》《极品桃花运》"
+    },
+    {
+      "id": 2,
+      "imgsrc": "/bookHouse/images/2.png",
+      "title": "新书推荐榜",
+      "detail": "《我与极品美女特卫：中南海保镖》《武灵天下》"
+    },
+    {
+      "id": 3,
+      "imgsrc": "/bookHouse/images/3.png",
+      "title": "经典完本TOP100榜",
+      "detail": "《官途》《神医相师》《神霄煞仙》"
+    },
+    {
+      "id": 4,
+      "imgsrc": "/bookHouse/images/4.png",
+      "title": "热门追更TOP100榜",
+      "detail": "《绝品神医》《符皇》《最强农民混都市》"
+    }
+    
+  ]
+}

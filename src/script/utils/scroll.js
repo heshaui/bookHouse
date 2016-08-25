@@ -1,18 +1,18 @@
-﻿// pullToRefresh
+// pullToRefresh
 module.exports = function (opt) {
-  opt.eleHeadAndFoot =opt.eleHeadAndFoot|| $('#home-swiper');
-  opt.objRefreshAjax = opt.objRefreshAjax||{
-    url: '/api/livelist.php',
+  opt.eleHeadAndFoot = opt.eleHeadAndFoot || $('#detail-section');
+  opt.objRefreshAjax = opt.objRefreshAjax || {
+    url: '/bookHouse/mock/detail-refresh.json',
     type: 'get',
     data: {
       type: 'refresh'
     },
     success: function (res) {
-      opt.vm.livelist = res.data.concat(opt.vm.livelist);
+      opt.vm.detail = res.data.concat(opt.vm.detail);
     }
   };
-  opt.objMoreAjax = opt.objMoreAjax||{
-    url: '/api/livelist.php',
+  opt.objMoreAjax = opt.objMoreAjax || {
+    url: '/bookHouse/mock/detail-more.json',
     type: 'get',
     data: {
       type: 'more',
@@ -24,7 +24,7 @@ module.exports = function (opt) {
         myScroll.refresh();
         myScroll.scrollTo(0, self.y + topSize);
         foot.removeClass('down');
-        foot.attr('src', '/footballSNS/images/arrow.png');
+        foot.attr('src', '/bookHouse/images/arrow.png');
     }
   };
 
@@ -58,8 +58,8 @@ module.exports = function (opt) {
       myScroll.scrollTo(0, -topSize);
       head.removeClass('up');
     } else if (this.y >= 0) {
-      head.attr('src', '/footballSNS/images/ajax-loader.gif');
-      //TODO ajax下拉刷新数据
+      head.attr('src', '/bookHouse/images/ajax-loader.gif');
+      // ajax下拉刷新数据
 
       $.ajax({
         url: opt.objRefreshAjax.url,
@@ -67,14 +67,12 @@ module.exports = function (opt) {
         data: opt.objRefreshAjax.data,
         success: function (res) {
           opt.objRefreshAjax.success(res);
+
+          myScroll.scrollTo(0, -topSize);
+          head.removeClass('up');
+          head.attr('src', '/bookHouse/images/arrow.png');
         }
       })
-
-      setTimeout(function () {
-        myScroll.scrollTo(0, -topSize);
-        head.removeClass('up');
-        head.attr('src', '/footballSNS/images/arrow.png');
-      }, 1000);
     }
 
     var maxY = this.maxScrollY - this.y;
@@ -83,22 +81,22 @@ module.exports = function (opt) {
       myScroll.scrollTo(0, self.maxScrollY + topSize);
       foot.removeClass('down')
     } else if (maxY >= 0) {
-      foot.attr('src', '/footballSNS/images/ajax-loader.gif');
+      foot.attr('src', '/bookHouse/images/ajax-loader.gif');
       // ajax上拉加载数据
       $.ajax({
-        url: '/api/livelist.php',
+        url: '/bookHouse/mock/detail-more.json',
         type: 'get',
         data: {
           type: 'more',
           pageNo: 2
         },
         success: function (res) {
-          opt.vm.livelist.pushArray(res.data);
+          opt.vm.detail.pushArray(res.data);
 
           myScroll.refresh();
           myScroll.scrollTo(0, self.y + topSize);
           foot.removeClass('down');
-          foot.attr('src', '/footballSNS/images/arrow.png');
+          foot.attr('src', '/bookHouse/images/arrow.png');
         }
       });
     }

@@ -1,0 +1,82 @@
+<div class="m-subdetail">
+	<header>仙魔同修</header>
+	<section spa-widget="scroll">
+		<article>
+			<ul class="introduce">
+				<li class="li">
+					<i><img src="/bookHouse/images/d_2.png" alt="" /></i>
+					<ul>
+						<li>仙魔同修</li>
+						<li><i class="yo-ico">&#xe61a;&#xe61a;&#xe61a;&#xe61a;&#xe61a;</i></li>
+						<li>化十</li>
+						<li>字数：587.54万字 | 完结</li>
+					</ul>
+				</li>
+				<li class="li">
+					<span><i>加入书架</i></span>
+					<span><i>免费试读</i></span>
+				</li>
+				<li class="li">
+					<b>简介</b>
+					<p>天玄大陆，国家遍布，宗门林立。这是一个弱肉强食，适者生存，武力为尊的世界!</p>
+				</li>
+			</ul>
+			<div class="catalague">
+				<i class="yo-ico">&#xe8fd;</i>
+				<b>查看目录 <span> (共1725章)</span></b>
+				<a href="javascript:;" class="yo-ico">&#xe61f;</a>
+			</div>
+			<div class="comment">
+				<i><img src="/bookHouse/images/com_1.png" alt="" /></i>
+				<i><img src="/bookHouse/images/com_2.png" alt="" /></i>
+				<span>更多评论</span>
+			</div>
+			<div class="common">
+				<h3>看过此书的人还看过<i class="yo-ico">&#xe61c; 换一批</i></h3> 
+		        <ul>     		              
+		       		<li>
+		                <i><img src="/bookHouse/images/d_11.png" alt="" /></i>
+		                <b>偷香邪医</b>
+		                <span>路陆</span>
+		            </li>
+		       		<li>
+		                <i><img src="/bookHouse/images/d_12.png" alt="" /></i>
+		                <b>傲世丹神</b>
+		                <span>只为有你</span>
+		            </li>
+		       		<li>
+		                <i><img src="/bookHouse/images/d_13.png" alt="" /></i>
+		                <b>我的贴身校花</b>
+		                <span>小猫与鱼</span>
+		            </li>
+		        </ul>
+		        <h3>同类好书<i class="yo-ico">&#xe61c; 换一批</i></h3>
+		        <ul>     		              
+		       		<li>
+		                <i><img src="/bookHouse/images/d_14.png" alt="" /></i>
+		                <b>贴身兵王</b>
+		                <span>路陆</span>
+		            </li>
+		       		<li>
+		                <i><img src="/bookHouse/images/d_15.png" alt="" /></i>
+		                <b>绝世邪神</b>
+		                <span>只为有你</span>
+		            </li>
+		       		<li>
+		                <i><img src="/bookHouse/images/d_16.png" alt="" /></i>
+		                <b>权利巅峰</b>
+		                <span>小猫与鱼</span>
+		            </li>
+		        </ul>
+			</div>
+			<div class="copy">
+	            <div>
+	                <p>三味书屋书迷QQ群：109745941</p>
+	                <p>请及时升级三味书屋最新版本，惊喜不断</p>
+	                <p>Readingjoy&copy;2015版权所有</p>
+	            </div>
+	        </div> 
+		</article>
+	</section>
+	<footer><i class="yo-ico" onclick="Javascript:window.history.go(-1)">&#xe69f;</i></footer>
+</div>

@@ -1,1 +1,43 @@
-<div class="sort">分类</div>
+<div class="m-sort">
+<header><i>分类</i></header>
+<nav>
+<input type="text" placeholder="请输入书名或作者"/>
+<ul class="yo-tab">
+    <li class="item">分类</li>
+    <li class="item item-on">发现</li>
+    <li class="item">淘书</li>
+</ul>
+</nav>
+<section spa-widget="scroll">
+   <article>
+   		<h3>男频分类</h3>
+        <ul>
+            <li><img src="/bookHouse/images/101.jpg"</li>
+            <li>奇幻科幻<span>599</span></li>
+            <li> 1</li>
+            <li>仙侠武侠<span>2102</span></li>
+            <li>东方玄幻<span>1062</span></li>
+            <li>悬疑惊悚<span>153</span></li>
+            <li>热血都市<span>2504</span></li>
+            <li>网游竞技<span>548</span></li>
+            <li>历史军事<span>461</span></li>
+            <li>异界争霸<span>219</span></li>
+        </ul>
+       <h3>女频分类</h3>
+   </article>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>

@@ -49,13 +49,13 @@
                           padding:0 .15rem;
                           b{
                               color:#626262;
-                              font-size:.14rem;
+                              font-size:.13rem;
                               line-height:.24rem;
                           }
                           p{
                               width:100%;
                               color:#989898;
-                              font-size:.14rem;
+                              font-size:.12rem;
                               @include ellipsis(100%, 1);                          
                           }
                       }

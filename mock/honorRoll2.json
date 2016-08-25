@@ -1,0 +1,31 @@
+{
+  "message": "",
+  "ret": 0,
+  "data":[
+    {
+      "id": 1,
+      "imgsrc": "/bookHouse/images/5.gif",
+      "title": "畅销榜",
+      "detail": "《贵女不承欢》《丑后倾国》《醉缠欢》"
+    },
+    {
+      "id": 2,
+      "imgsrc": "/bookHouse/images/6.gif",
+      "title": "新书榜",
+      "detail": "《佣兵天下：破身为妃》《武灵天下》"
+    },
+    {
+      "id": 3,
+      "imgsrc": "/bookHouse/images/7.gif",
+      "title": "全本口碑TOP100榜",
+      "detail": "《凤凰错：替嫁弃妃》《神医相师》《神霄煞仙》"
+    },
+    {
+      "id": 4,
+      "imgsrc": "/bookHouse/images/9.gif",
+      "title": "人气追更TOP100榜",
+      "detail": "《闪婚老公太凶猛》《符皇》《最强农民混都市》"
+    }
+    
+  ]
+}
