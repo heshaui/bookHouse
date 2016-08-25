@@ -56,14 +56,10 @@
                                  @include border-radius(3px);
                                  position: absolute;
                                  right: 0;
-                                 i{
-                                    display: block;
-                                    font-size:.12rem;
-                                    line-height:.14rem;
-                                    color:#fff;
-                                    padding:2px;
-                                     
-                                 }
+                                 font-size:.12rem;
+                                 line-height:.16rem;
+                                 color:#fff; 
+                                 text-indent:1px;  
                               }
                           }
                           &:nth-child(2){

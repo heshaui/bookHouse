@@ -14,8 +14,8 @@ SPA.defineView('detail',{
 	],
 	// 绑定tap
 	  bindActions: {
-	    'goto.detail': function (el, data) {
-	      SPA.open('detail', {
+	    'goto.subdetail': function (el, data) {
+	      SPA.open('subdetail', {
 	        param: {
 	          id: data.id
 	        }

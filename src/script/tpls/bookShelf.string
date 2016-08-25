@@ -20,14 +20,14 @@
 	</nav>
 	<section>
 		<ul>
-			<li><img src="/bookHouse/images/1.jpg" alt="" /></li>
-			<li><img src="/bookHouse/images/2.jpg" alt="" /></li>
-			<li><img src="/bookHouse/images/3.jpg" alt="" /></li>
+			<li ms-repeat-el="bookShelf" action-type="goto.book" ms-attr-data-id="el.id">
+				<img ms-src="el.imgsrc" alt="" />
+			</li>
 		</ul>
 		<ul>
-			<li><img src="/bookHouse/images/4.jpg" alt="" /></li>
-			<li><img src="/bookHouse/images/5.jpg" alt="" /></li>
-			<li><img src="/bookHouse/images/6.jpg" alt="" /></li>
+			<li ms-repeat-el="bookShelf2" action-type="goto.book" ms-attr-data-id="el.id">
+				<img ms-src="el.imgsrc" alt="" />
+			</li>
 		</ul>
 	</section>
 </div>
